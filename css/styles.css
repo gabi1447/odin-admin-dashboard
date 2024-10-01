@@ -184,6 +184,8 @@ body {
     grid-template-columns: 3fr 1fr;
 }
 
+/* MAIN > projects */
+
 .projects {
     display: flex;
     flex-direction: column;
@@ -203,6 +205,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 1.5rem;
+    padding-right: 1.5rem;
 }
 
 .project-card {
@@ -228,4 +231,30 @@ body {
     fill: #27374D;
     width: 1.5rem;
     height: 1.5rem;
+}
+
+/* MAIN > announcements-trending */
+.announcements-trending {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.announcements, .trending {
+    display: flex;
+    flex-direction: column;
+    gap: 1.15rem;
+}
+
+.announcement-card {
+    padding: 1.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.announcement-card, .trending-card {
+    background-color: #9DB2BF;
+    color: #27374D;
 }
