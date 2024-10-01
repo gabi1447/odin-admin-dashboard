@@ -116,11 +116,12 @@ body {
 .buttons button {
     color: inherit;
     background-color: #27374D;
-    padding: 0.5rem 3.5rem;
+    padding: 1rem 2.5rem;
 
     cursor: pointer;
     border-radius: 1rem;
     border: none;
+
     font-weight: bold;
 }
 
