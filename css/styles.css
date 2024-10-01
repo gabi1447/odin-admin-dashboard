@@ -254,6 +254,32 @@ body {
     border-radius: 0.5rem;
 }
 
+.trending-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 0.5rem;
+
+    padding: 1.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.trending-card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.icon-trending {
+    width: 25%;
+    height: auto;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
 .announcement-card, .trending-card {
     background-color: #9DB2BF;
     color: #27374D;
