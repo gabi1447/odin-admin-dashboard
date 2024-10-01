@@ -24,7 +24,7 @@ body {
 /* HEADER */
 .header {
     background-color: #9DB2BF;
-    padding: 1.5rem 2rem;
+    padding: 0rem 2rem;
 }
 
 .header-grid {
@@ -46,7 +46,8 @@ body {
 .search-bar {
     display: flex;
     gap: 1rem;
-    align-content: start;
+    align-items: center;
+    align-content: center;
     
 }
 
@@ -81,6 +82,25 @@ body {
 .introduction-grid img {
     width: 7rem;
     height: auto;
+}
+
+/* HEADER > notifications */
+.notifications {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    gap: 1rem;
+}
+
+.notifications img {
+    width: 5rem;
+    height: auto;
+}
+
+.notifications a {
+    color: inherit;
+    text-decoration: none;
 }
 
 /* SIDEBAR */
