@@ -36,6 +36,13 @@ body {
     grid-template-rows: repeat(2, 1fr);
 }
 
+.icon-header {
+    fill: #27374D;
+    width: 1.75rem;
+    height: 1.75rem;
+}
+
+/* HEADER > search-bar */
 .search-bar {
     display: flex;
     gap: 1rem;
@@ -60,10 +67,20 @@ body {
     box-shadow: 0px 2px 5px 1px black;
 }
 
-.icon-header {
-    fill: #27374D;
-    width: 1.75rem;
-    height: 1.75rem;
+/* HEADER > introduction */
+.introduction-grid {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    align-items: center;
+    justify-items: start;
+
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.introduction-grid img {
+    width: 7rem;
+    height: auto;
 }
 
 /* SIDEBAR */
